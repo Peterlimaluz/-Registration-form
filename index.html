@@ -1,234 +1,1326 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>   
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Landing Page HealthYou</title>
-    <style type="text/css">		
+<head>
+<meta charset="utf-8">
+<title>Histórico Ficha Cadastral</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-10">
+				<div class="jumbotron">
+					<img src="images/logo.png" class="img-fluid img-logo mb-3" alt="">
+					<h1 class="display-4 text-white" style="font-weight: bold"><strong>Histórico de informações Médicas.</strong></h1>
+				  <hr class="my-4">
+				  <p class="text-white">Clica na linha abaixo para expandir as informações.</p>
+				</div>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="offset-lg-1"></div>
+			<div class="col-lg-10 text-center">
+				<div class="accordion" id="pessoalT">
+					<div class="card">
+						<h2 class="mb-0">
+							<div class="card-header" id="d-pessoal">
+								<h2 class="md-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#pessoal" aria-expanded="true" aria-controls="pessoal" style="font-size: 18px; text-decoration: none, color: #000">
+									Identificação Pessoal - João Roberto Tavares
+									</button>
+								</h2>							
+							</div>
+						</h2>								
+						<div id="pessoal" class="collapse" aria-labelledby="d-pessoal" data-parent="#pessoalT">			  
+						  <div class="card-body">
+							  <h5 class="card-title">Nome Completo: <b>João Roberto Tavares Borba</b></h5>
+							<p class="card-text">
+							  <div class="row">
+								<div class="col-lg-4 lb-line">
+									<h6>Sexo: <b>Masculino</b></h6>
+								</div>
+								<div class="col-lg-4 lb-line">
+									<h6>Data Nascimento: <b>03/04/1980</b></h6>
+								</div>
+								<div class="col-lg-4 lb-line">
+									<h6>Naturalidade: <b>Arapongas</b></h6>
+								</div>
+							  </div>
+							  <hr>
+							  <div class="row">
+								<div class="col-lg-3 lb-line">
+									<h6>Endereço: <b>Rua Tal Tal</b></h6>
+								</div>
+								<div class="col-lg-3 lb-line">
+									<h6>Telefones: <b>(41)9999-99999</b></h6>
+								</div>
+								<div class="col-lg-3 lb-line">
+									<h6>Profissão: <b>Advogado</b></h6>
+								</div>
+								 <div class="col-lg-3 lb-line">
+									<h6>Estado Civil: <b>Solteiro</b></h6>
+								</div>
+							  </div>
+							</p>
+						  </div>
+						</div>
+					</div>	
+				</div>
+				<br>
+			</div>
+			<div class="offset-lg-1"></div>
+		</div>		
+		<div class="row">
+			<div class="offset-lg-1"></div>			
+			<div class="col-lg-10">
+				<div class="card">
+					<div class="card-header text-center"><h6>Clique em cima do Titulo para expandir informações.</h6></div>
+				</div>
+				<div class="accordion" id="accordionExample">
+				  <div class="card curso-mouse" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					<div class="card-header bk-custom" id="headingOne">
+					  <h2 class="mb-0 ">
+						<button class="btn btn-link" type="button" >
+						  Anamnese HealthYou- Data: 02/02/2020
+						</button>
+					  </h2>
+					</div>
+
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+					  <div class="card-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<small>Nome Completo</small>
+								<input value="João Roberto Tavares Borba" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Sexo</small>
+								<input value="Masculino" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Data Nascimneto</small>
+								<input value="03/04/1990" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						 <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Cargo</small>
+								<input value="Gerente de Loja" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Periodo</small>
+								<input value="Integral" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Estado Conjugal</small>
+								<input value="Casado" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Nivel de Escolaridade</small>
+								<input value="Superior Completo" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<small>Sr(a) está grávida</small>
+								<input value="Não" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Como classifica seu estado de saúde no momento?</small>
+								<input value="Bom" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Com qual frequência visita o médico anualmente?</small>
+								<input value="Poucas Vezes" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+						<div class="row">
+							<div class="col-md-12 col-sm-12">
+								<small>Com qual frequência realiza exames de controle como glicemia, colesterol e aferição da pressão?(Anualmente)</small>
+								<input value="1 vez no ano" class="form-control form-control-sm w-100" readonly>
+							</div>							
+						</div>
+						  <hr>
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<small>Realizou algum procedimento cirúrgico nos últimos 18 meses?</small>
+								<input value="Bom" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<small>Doenças informadas:</small>
+								<input value="Artrite - Cefaleias - Ansiedade - Rinite" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<small>Já foi informado por algum médico que possui pressão alta?</small>
+								<input value="Não" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Toma algum medicamento para controlar a pressão</small>
+								<input value="Não" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Alguém da sua família tem pressão alta? (Mãe)</small>
+								<input value="Não" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+						<div class="row">
+						</div>
+						  <hr>
+						<div class="row">
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="card curso-mouse" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					<div class="card-header" id="headingTwo">
+					  <h2 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" >
+						  Clinica Médica - Data: 10/11/2019
+						</button>
+					  </h2>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					  <div class="card-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<small>Convênio Médico</small>
+								<input value="UNIMED" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>N° da Inscrição</small>
+								<input value="00000000-01" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Titular</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>Tipo Sanguineo</small>
+								<input value="O +" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Peso</small>
+								<input value="80kg" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Altura</small>
+								<input value="1,78" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Pressão Arterial</small>
+								<input value="13/9" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Em caso de Mulher, esta gravida?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Usa Marcapasso</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Apresenta alguma deficiência?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tem algum problema de saúde?</small>
+								<input value="SINUSITE" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Já teve doenças contagiosas?</small>
+								<input value="SARAMPO - CAXUMBA" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Vacinação</small>
+								<input value="HEPATITE B - H1N1" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Já foi submetido(a) a tratamento cirúrgico</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>É alérgico(a)?</small>
+								<input value="RINITE" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tem acompanhamento médico?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<small>Faz uso de medicação continua ou controlada?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Tabagista</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Etilismo</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Drogas</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Drogas</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-12 col-sm-12">
+								<small>Queixas do Paciente</small>
+								<textarea rows="4" class="form-control form-control-sm w-100" readonly>
+									Dores Lombares, falta de sono, e fadiga em excesso.
+								</textarea>
+							</div>
+						</div>
+						<hr>
+					  </div>
+					</div>
+				  </div>
+				  <div class="card curso-mouse" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
+					<div class="card-header bk-custom" id="headingThree4">
+					  <h2 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" >
+						  Ginecologia - 19/09/2019
+						</button>
+					  </h2>
+					</div>
+					<div id="collapseThree4" class="collapse" aria-labelledby="headingThree4" data-parent="#accordionExample">
+					  <div class="card-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<small>Convênio Médico</small>
+								<input value="UNIMED" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>N° da Inscrição</small>
+								<input value="00000000-01" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Titular</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>Tipo Sanguineo</small>
+								<input value="O +" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Peso</small>
+								<input value="80kg" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Altura</small>
+								<input value="1,78" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Pressão Arterial</small>
+								<input value="13/9" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Em caso de Mulher, esta gravida?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Usa Marcapasso</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Apresenta alguma deficiência?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tem algum problema de saúde?</small>
+								<input value="SINUSITE" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Já teve doenças contagiosas?</small>
+								<input value="SARAMPO - CAXUMBA" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Vacinação</small>
+								<input value="HEPATITE B - H1N1" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Já foi submetido(a) a tratamento cirúrgico</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>É alérgico(a)?</small>
+								<input value="RINITE" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tem acompanhamento médico?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<small>Faz uso de medicação continua ou controlada?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tabagista</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Etilismo</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Drogas</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						  <div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>Menarca</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>DUM</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Ciclos Menstruais</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Dismenorreia</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>SPM</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Método Anticoncepcional</small>
+								<input value="Preservativo" class="form-control form-control-sm w-100" readonly>
+							</div>
+						  </div>
+						<hr>
+						  <div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Corrimento</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>1º Coito</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Coito Anal</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Numero de parceiros</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Orgasmo</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+						  </div>
+						<hr>
+						  <div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>Gesta</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Aborto</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Parto Transpelvico</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Ectopica</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>1º parto</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Ultimo Parto</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+						  </div>
+						<hr>
+						  <div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>Intercorrencias</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Aleitamento</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Exame das Mamas</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Exame da Vulva e Perineo</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Toque</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Exame especular</small>
+								<input value="-----" class="form-control form-control-sm w-100" readonly>
+							</div>
+						  </div>
+						<hr>
+						  <div class="row">
+							  <div class="col-md-12 col-sm-12">
+								  <small>Queixas do Paciente</small>
+								  <textarea class="form-control form-control-sm w-100" readonly>
+									  Nada Consta
+								  </textarea>
+							  </div>
+						  </div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="card curso-mouse"  data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree">
+					<div class="card-header" id="headingThree3">
+					  <h2 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" >
+						  Otorrinolaringologia - 19/09/2019
+						</button>
+					  </h2>
+					</div>
+					<div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordionExample">
+					  <div class="card-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<small>Convênio Médico</small>
+								<input value="UNIMED" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>N° da Inscrição</small>
+								<input value="00000000-01" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Titular</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>Tipo Sanguineo</small>
+								<input value="O +" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Peso</small>
+								<input value="80kg" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Altura</small>
+								<input value="1,78" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Pressão Arterial</small>
+								<input value="13/9" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Em caso de Mulher, esta gravida?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Usa Marcapasso</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Apresenta alguma deficiência?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tem algum problema de saúde?</small>
+								<input value="SINUSITE" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Já teve doenças contagiosas?</small>
+								<input value="SARAMPO - CAXUMBA" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Vacinação</small>
+								<input value="HEPATITE B - H1N1" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Já foi submetido(a) a tratamento cirúrgico</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>É alérgico(a)?</small>
+								<input value="RINITE" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tem acompanhamento médico?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<small>Faz uso de medicação continua ou controlada?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tabagista</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Etilismo</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Drogas</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Obstrução nasal</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Dor de cabeça (cefaléia)</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Dor na face</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Secreção nasal</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						 <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Obstrução nasal</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Dor de cabeça (cefaléia)</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Secreção nasal</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Sangramento nasal (epistaxe)</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						   <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Dificuldade auditiva/surdez</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Zumbido</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tontura</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Secreção no ouvido (otorréia)</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Sangramento no ouvido (otorragia)</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Dor de ouvido (otalgia)</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Dor de garganta</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Rouquidão (disfonia)</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Ronco</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+						  <div class="row">
+							<div class="col-md-4 col-sm-12">
+								<small>Exame otologico</small>
+								<a href="images/unnamed.jpg" target="_blank">Exame Download Imagem</a>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Exame Nasal</small>
+								<a href="images/exame-nasal.jpg" target="_blank">Exame Nasal Imagem</a>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Oroscopia</small>
+								<a href="images/oroscopia.jpg" target="_blank">Exame Oroscopia Imagem</a>
+							</div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+					<div class="card curso-mouse" data-toggle="collapse" data-target="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
+					<div class="card-header bk-custom" id="headingThree5">
+					  <h2 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" >
+						  Ficha Clinica Pre Natal - 29/10/2019
+						</button>
+					  </h2>
+					</div>
+					<div id="collapseThree5" class="collapse" aria-labelledby="headingThree5" data-parent="#accordionExample">
+					  <div class="card-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<small>Convênio Médico</small>
+								<input value="UNIMED" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>N° da Inscrição</small>
+								<input value="00000000-01" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Titular</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>Tipo Sanguineo</small>
+								<input value="O +" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Peso</small>
+								<input value="80kg" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Altura</small>
+								<input value="1,78" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Pressão Arterial</small>
+								<input value="13/9" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Em caso de Mulher, esta gravida?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Usa Marcapasso</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Apresenta alguma deficiência?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tem algum problema de saúde?</small>
+								<input value="SINUSITE" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Já teve doenças contagiosas?</small>
+								<input value="SARAMPO - CAXUMBA" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Vacinação</small>
+								<input value="HEPATITE B - H1N1" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Já foi submetido(a) a tratamento cirúrgico</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>É alérgico(a)?</small>
+								<input value="RINITE" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tem acompanhamento médico?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<small>Faz uso de medicação continua ou controlada?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tabagista</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Etilismo</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Drogas</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Infecção Urinaria</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Infertilidade</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Cardiopata</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Cirurgia Pelvica Uterina</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						 <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Diabetes</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Hipertensão arterial</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-6 col-sm-12">
+								<small>Outros, quais?</small>
+								<input value="-----------------------" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						   <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Numero de gestações</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Numero de partos</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Numero de abortos</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Numero de gestações ectopicas</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Numero de gemelidades</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Abortamentos</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Partos</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Nascidos vivos</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Nascidos mortos</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						 <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Filhos vivos atuais</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Obitos na 1ª semana</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Obitos após a 1ª semana</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Causa do obito</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Peso do RN</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						   <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Data do termino da ultima gestação</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Amamentação</small>
+								<input value="Não" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Causa do insucesso</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Intercorrencias em gestações anteriores</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+						<div class="row">
+							<div class="col-md-1 col-sm-12">
+								<small>DUM</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-1 col-sm-12">
+								<small>DPP</small>
+								<input value="Não" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Grupo sanguineo</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Transfusão</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Vacinação Atitetanica</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Intercorrencias até a primeira consult</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+						<div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>Peso previo</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Peso na 1ª consulta</small>
+								<input value="Não" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Estatura</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Exame clinico normal?</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Exame da mamas normal?</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Exame de pelvis Normal?</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Exame de Papanicolau normal?</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Exame de Colposcopia normal?</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>VDRL</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Achados alterados nos exames realizados</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>						
+						  <hr>
+						<div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>IG (semanas)</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Peso (kg))</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>IMC</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>PA (mmHG0/edema (+a 4+)</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Altura Uterina(cm)</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							
+						  </div>
+						  <hr>
+						  <div class="row">
+							<div class="col-md-4 col-sm-12">
+								<small>Movimentos Fetais</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>BCF</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Apresentação Fetal</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+						  </div>
+						  <hr>
+						  <div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>ABO-Rh</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Hb/Ht</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Glicemia em jejum</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>VDRL</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Urina 1</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Anti-HIV</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+						  </div>
+						  <hr>
+						  <div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>HbA1C</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Toxoplasmose</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Coombs indireto</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>TOTG 50 mg</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+						  </div>
+						  <hr>
+						  <div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Urocultura</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Papanicolau</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Outros</small>
+								<a href="Sem-Imagem"><br>Sem Imagem</a>
+							</div>							
+							<div class="col-md-3 col-sm-12">
+								<small>Ultrossonografia</small>
+								<a href="images/ultra.jpg" target="_blank"><br>Ultrassonografia</a>
+							</div>						
+
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="card curso-mouse" data-toggle="collapse" data-target="#collapseThree6" aria-expanded="false" aria-controls="collapseThree6">
+					<div class="card-header" id="headingThree6">
+					  <h2 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" >
+						  Ficha Oftalmologia - 29/11/2019
+						</button>
+					  </h2>
+					</div>
+					<div id="collapseThree6" class="collapse" aria-labelledby="headingThree6" data-parent="#accordionExample">
+					  <div class="card-body">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<small>Convênio Médico</small>
+								<input value="UNIMED" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>N° da Inscrição</small>
+								<input value="00000000-01" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Titular</small>
+								<input value="SIM" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-2 col-sm-12">
+								<small>Tipo Sanguineo</small>
+								<input value="O +" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Peso</small>
+								<input value="80kg" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Altura</small>
+								<input value="1,78" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Pressão Arterial</small>
+								<input value="13/9" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Em caso de Mulher, esta gravida?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Usa Marcapasso</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Apresenta alguma deficiência?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tem algum problema de saúde?</small>
+								<input value="SINUSITE" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Já teve doenças contagiosas?</small>
+								<input value="SARAMPO - CAXUMBA" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Vacinação</small>
+								<input value="HEPATITE B - H1N1" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Já foi submetido(a) a tratamento cirúrgico</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>É alérgico(a)?</small>
+								<input value="RINITE" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tem acompanhamento médico?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-4 col-sm-12">
+								<small>Faz uso de medicação continua ou controlada?</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Tabagista</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>Etilismo</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Drogas</small>
+								<input value="NÃO" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<small>Baixa Visão</small>
+								<input value="Olho Direito" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Olho Direito</small>
+								<input value="Refração Longe" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Olho Esquerdo</small>
+								<input value="Nada Consta" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						   <hr>
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Catarata</small>
+								<input value="Nuclear" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Intensidade</small>
+								<input value="(++)" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>PIO</small>
+								<input value="OD" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>FO</small>
+								<input value="------" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>
+						  <hr>
+
+						<div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Exame de Papanicolau normal?</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Exame de Colposcopia normal?</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-2 col-sm-12">
+								<small>VDRL</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<small>Achados alterados nos exames realizados</small>
+								<input value="0" class="form-control form-control-sm w-100" readonly>
+							</div>
+						</div>						
+						  <hr>
+						  <div class="row">
+							<div class="col-md-3 col-sm-12">
+								<small>Queixas</small>
+								<textarea  class="form-control" disabled>Dores nos olhos esquerdos. Visão turva as vezes.</textarea>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Papanicolau</small>
+								<input class="form-control" type="text" value="Hipoteses diagnosticas" disabled>
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<small>Exames</small>
+								<a href="Mapeamento-retina.jpg"><br>Mapeamento-retina.jpg</a>
+							</div>							
+							<div class="col-md-3 col-sm-12">
+								<small>Conduta</small>
+								<input class="form-control" type="text" value="---------" disabled>
+							</div>						
+
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>			
+			<div class="offset-lg-1"></div>			
+		</div>
+		<div class="clearfix"></div>
+		<footer class="footer mt-5">
+			<p>HealthYou - Todos os Direitos Reservados - <a href="https://healthyou.com.br/">HY</a></p>
+		</footer>
+	</div>	
 	
-	@font-face {    
-	font-family: OmnesRegular;
-    src: url('http://healthyou.16mb.com/mkt-drive/fonts/Omnes_GirlScouts-Regular.otf') /*Para os demais navegadores*/;	
-    font-weight: normal;
-	}
-
-	@font-face {		
-		font-family: OmnesBold;
-		src: url(http://healthyou.16mb.com/mkt-drive/fonts/Omnes_GirlScouts-Bold.otf) /*Para os demais navegadores*/;		
-		font-weight: bold;		
-	}
-
-	@font-face {	
-		font-family: OmnesMedium;
-		src: url('http://healthyou.16mb.com/mkt-drive/fonts/Omnes_GirlScouts-Medium.otf') /*Para os demais navegadores*/;		
-		font-weight: 800;
-	}
-
-	@font-face {		
-		font-family: OmnesLight;
-		src: url('http://healthyou.16mb.com/mkt-drive/fonts/Omnes_GirlScouts-Light.otf') /*Para os demais navegadores*/;		
-		font-weight: lighter;
-	}
-	@font-face {
-		font-family: OmnesSemiBold;
-		src: url('http://healthyou.16mb.com/mkt-drive/fonts/Omnes_GirlScouts-Semibold.otf') /*Para os demais navegadores*/;		
-		font-weight: 600;
-	}
-      
-      /* Default CSS */
-      body,#body_style {margin: 0; padding: 0; background: #aabb5b; color: #5b656e;}
-      a {color: #09c;}
-      a img {border: none; text-decoration: none;}
-      table, table td {border-collapse: collapse;}
-      td, h1, h2, h3, p {font-family: arial, helvetica, sans-serif; color: #313a42;}
-      h1, h2, h3, h4 {color: #313a42 !important; font-weight: normal; line-height: 1.2;}
-      h1 {font-size: 24px;}
-      h2 {font-size: 18px;}
-      h3 {font-size: 16px;}
-      p {margin: 0 0 1.6em 0;}
-      
-      /* Force Outlook to provide a "view in browser" menu link. */
-      #outlook a {padding:0;}
-      
-      /* Preheader and webversion */
-      .preheader {background-color: #aabb5b;}
-      .preheaderContent, .webversion, .webversion a {color: #999999; font-size: 10px;}
-      .preheaderContent{width: 440px;}
-      .preheaderContent, .webversion {padding: 5px 10px;}
-      .webversion {width: 200px; text-align: right;}
-      .webversion a {text-decoration: underline; color: #999999; font-size: 10px;}
-      
-      /* Logo (branding) */
-      .logoContainer {padding: 20px 0 10px 0px; width: 320px;}
-      .logoContainer a {color: #ffffff;}
-      
-      /* Whitespace (imageless spacer) */
-      .whitespace {font-family: 0px; line-height: 0px;}
-      
-      /* Button */
-      .buttonContainer {padding: 10px 20px 10px 20px;}
-      .button {padding: 10px 5px 10px 5px; text-align: center; background-color: #aabb5b; border-radius: 4px;}
-      .button a {color: #ffffff; text-decoration: none; display: block; text-transform: uppercase;}
-      
-      /* Featured content */
-      .featuredHeader {background: #aabb5b;}
-      #featuredImage img {display: block; margin: 0 auto;}
-      .featuredTitle {color: #ffffff;font-family:'OmnesSemiBold', 'sans-serif';font-size: 50px; padding: 0px 0px 0px 0px; font-weight: 600;}
-	   .featuredTitle2 {color: #6a63ac;font-family:'OmnesSemiBold', 'sans-serif';font-size: 50px; padding: 0px 0px 10px 0px; font-weight: 600;}
-      .featuredContent {color: #ffffff;font-family:'OmnesSemiBold', 'sans-serif'; font-weight: 600; font-size: 26px;}
-      
-      /* One horizontal section of content: e.g. */
-      .section {padding: 20px 0px 0px 0px;}
-      .sectionOdd {background-color: #aabb5b;}
-      .sectionEven {background-color: #aabb5b;}
-      .sectionOdd, .sectionEven {padding: 30px 0px 30px 0px;}
-      
-      /* An article */
-      .sectionArticleTitle, .sectionArticleContent {text-align: center;}
-      .sectionArticleTitle {font-size: 18px; padding: 10px 0px 5px; 0px;}
-      .sectionArticleContent {font-size: 13px; line-height: 18px;}
-      .sectionArticleImage {text-align: center;}
-      .sectionArticleImage img {padding: 0px 0px 0px 0px; -ms-interpolation-mode: bicubic;}
-      
-      
-      .sectionTitle, .sectionSubTitle{text-align: center;}
-      .sectionTitle {font-size: 26px; padding: 0px 10px 10px 10px}
-      .sectionSubTitle {padding: 0px 10px 20px 10px;}
-      
-      /* Footer and social media */
-      .footNotes {padding: 0px 20px 0px 20px;}
-      .footNotes a {color: #556270; font-size: 13px;}
-      .socialMedia {background: #aabb5b;}
-      
-      
-      /* CSS for specific screen width(s) */
-      @media only screen and (max-width: 480px) {
-        body,table,td,p,a,li,blockquote {-webkit-text-size-adjust:none !important;}
-          body[yahoofix] table {width: 100% !important;}
-          body[yahoofix] .webversion {display: none; font-size: 0; max-height: 0; line-height: 0; mso-hide: all;}
-          body[yahoofix] .logoContainer, body[yahoofix] .featuredTitle , body[yahoofix] .featuredContent {text-align: center;}
-          body[yahoofix] .sectionArticleImage img {height: auto !important; max-width: 100% !important;}
-          body[yahoofix] .preheaderContent{text-align: center;}
-          body[yahoofix] .buttonContainer {padding: 0px 20px 0px 20px;}
-          body[yahoofix] .column { width: 100%;}
-          body[yahoofix] #featuredImage {text-align: center;}
-          body[yahoofix] .featuredTitle {line-height: 40px; font-size: 30px}
-		  body[yahoofix] .featuredTitle2 {line-height: 40px; padding: 0px 10px 25px 10px;font-size: 30px; text-align: center;}
-          body[yahoofix] .featuredContent {padding: 0px 10px 20px 10px;}
-          body[yahoofix] .sectionArticleTitle {padding: 0px 10px 0px 10px !important;}
-          body[yahoofix] .sectionArticleContent {padding: 0px 10px 30px 10px !important;}
-          body[yahoofix] .hide-mob {display: none !important;}
-        }
-    </style>
-  </head>
-  <body yahoofix>
-	<a href="https://healthyou.com.br/campanha/" style="text-decoration: none;">
-    <span id="body_style" style="display:block">
-      
-      <!-- Preheader -->
-      <table class="preheader" cellpadding="0" cellspacing="0" width="100%">
-        <tr>
-          <td>
-            <!-- preheaderContent and webversion -->
-            <table border="0" cellpadding="0" cellspacing="0" summary="" width="640" align="center">
-              <tr>
-                <td class="preheaderContent"></td>
-                <td class="webversion"></td>
-              </tr>
-            </table>
-            <!-- End preheaderContent and webversion -->
-          </td>
-        </tr>
-      </table>
-      <!-- End preheader -->
-      
-      <!-- topHeader -->
-      <table border="0" cellspacing="0" cellpadding="0" width="100%" summary="" class="topHeader">
-        <tr>
-          <td>
-            <!-- Logo (branding) -->
-            <table border="0" cellspacing="0" cellpadding="0" width="640" align="center" summary="">
-              <tr>
-                <td class="logoContainer" align="center">
-                  
-                </td>
-              </tr>
-            </table>
-            <!-- End Logo (branding) -->
-          </td>
-        </tr>
-      </table>
-      <!-- End topHeader -->
-      
-      <!-- featuredHeader -->
-      <table border="0" cellspacing="0" cellpadding="0" width="100%" summary="" class="featuredHeader">
-        <tr>
-          <td class="section">
-            <table border="0" cellspacing="0" cellpadding="0" width="700" align="center" summary="">
-              <tr>
-                <td class="column">
-                  <table border="0" cellspacing="0" cellpadding="0" width="700" summary="">
-                    <tr>
-                      <td class="featuredTitle">
-                        A HealthYou tem um plano ideal<br class="hide-mob">
-						para cuidar da sua saúde.
-                      </td>
-                    </tr>
-					<tr>
-                      <td class="featuredTitle2">
-                        Inclusive a financeira.
-                      </td>
-                    </tr>
-					<tr><td class="whitespace" height="20">&nbsp;</td></tr>
-                    <tr>
-                      <td class="featuredContent">
-                        Cuidar da saúde não custa caro com a HealthYou.
-                      </td>
-                    </tr>
-					<tr>
-                      <td class="featuredContent">
-                        Temos uma oferta exclusiva para a sua saúde e a do seu Bolso.
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-      <!-- End featuredHeader -->
-	       <!-- Social media -->
-      <table border="0" cellspacing="0" cellpadding="0" width="100%" summary="" class="socialMedia">
-        <tr><td class="whitespace" height="20">&nbsp;</td></tr>
-        <tr>
-          <td>
-          </td>
-        </tr>
-        <tr><td class="whitespace" height="10">&nbsp;</td></tr>
-      </table>
-      <!-- End Social media -->
-      
-      <!-- Section -->
-      <table border="0" cellpadding="0" cellspacing="0" width="100%" summary="">
-        <tr>
-          <td class="sectionOdd">
-            <table border="0" cellpadding="0" cellspacing="0" width="700" align="center" summary="">
-              <tr>
-                <td class="column" valign="bottom">
-					<img src="http://healthyou.16mb.com/mkt-drive/images/imageFull.png" alt="" style="width: 100%; height: auto">
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-
-      <!-- End Section -->
-      
-
-      
-    </span>
-	</a>
-  </body>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 </html>
